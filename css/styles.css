@@ -188,7 +188,9 @@ header{
 }
 
 /* розділ Чим ми займаємося */
-
+.section-action{
+   padding-bottom: 94px;
+}
 .action{
    display: flex;
    gap: 30px;
