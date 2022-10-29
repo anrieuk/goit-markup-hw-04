@@ -125,6 +125,7 @@ header{
 
 .navigation-contacts-icon{
 fill: var(--secondary-dark);
+margin-right: 10px;
 }
 .navigation-contacts:hover .navigation-contacts-icon{
    fill: var(--main-color-active);
