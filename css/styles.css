@@ -326,6 +326,7 @@ justify-content: center;
 align-items: center;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
+display: block;
 }
 .client-icon{
 fill: #AFB1B8;
@@ -334,8 +335,8 @@ fill: #AFB1B8;
 .clients:focus .client-icon{
 fill: var(--main-color-active);
 }
-.clients:hover .client-link,
-.clients:focus .client-link {
+.client-link:hover,
+.client-link:focus{
 border: 1px solid var(--main-color-active);
 border-radius: 4px;
 }
@@ -483,6 +484,7 @@ address{
 }
 .project-link{
       width: 370px;
+      display: block;
       height: 404px;
       /* width: calc((100%-60px)/3); */
      border-bottom: 1px solid #EEEEEE;
